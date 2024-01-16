@@ -1,0 +1,50 @@
+.field {
+    width: 500px;
+    height: 600px;
+    background-color: bisque;
+    padding: 25px;
+    opacity: 0;
+    z-index: -1;
+}
+
+.digits {
+    width: 450px;
+    height: 450px;
+    background-color: blanchedalmond;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.digit {
+    width: 90px;
+    height: 90px;
+    background-color: gray;
+
+}
+
+.bottom-area {
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+    justify-content: center;
+}
+
+.timer {
+    width: 200px;
+    height: 50px;
+    background-color: aliceblue;
+    margin-right: 3em;
+}
+
+.win-screen {
+    width: 400px;
+    height: 50px;
+    background-color: bisque;
+    opacity: 0;
+    text-align: center;
+    padding: auto;
+    z-index: -1;
+}
